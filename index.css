@@ -1,0 +1,9 @@
+.greeting {
+  font-family: Roboto;
+  font-size: 50px;
+}
+.background {
+  text-align: center;
+  background-color: aquamarine;
+  background-size: cover;
+}
