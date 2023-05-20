@@ -1,0 +1,72 @@
+/* Write your code here. 
+
+https://assets.ccbp.in/frontend/react-js/primary-icon-img.png
+https://assets.ccbp.in/frontend/react-js/success-icon-img.png
+https://assets.ccbp.in/frontend/react-js/warning-icon-img.png
+https://assets.ccbp.in/frontend/react-js/danger-icon-img.png
+
+Hex: #0f172a
+Hex: #ffffff
+Hex: #0b69ff
+Hex: #2dca73
+Hex: #ffb800
+Hex: #ff0b37
+
+*/
+.bg-container{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items:center;
+    font-family:Roboto;
+    height:70vh;
+
+}
+.main-heading{
+    font-size:20px;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: Roboto;
+  border-radius: 4px;
+  width:50vw;
+}
+
+.inner-container{
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    align-items:center;
+   
+    width : 80%;
+    
+  color: #ffffff;
+  flex-grow:1;
+}
+
+.img-style{
+    width: 10px;
+    height: 10px;
+    margin-left: 15px;
+}
+.text-style{
+    font-size:14px;
+    margin-right:10px;
+}
+.notification-container {
+  background-color: #0b69ff;
+  
+}
+.success-container{
+ background-color:#2dca73;   
+}
+.warning-container{
+ background-color:#ffb800;   
+}
+.error-container{
+ background-color:#ff0b37;   
+}
