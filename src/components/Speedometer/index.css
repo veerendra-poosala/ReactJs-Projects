@@ -1,0 +1,54 @@
+.speedo-meter-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #07080c;
+  min-height: 100vh;
+}
+.speedo-meter-image {
+  max-width: 70vw;
+  max-height: 40vh;
+}
+.speedo-meter-main-heading {
+  color: #ffffff;
+}
+.speedo-meter-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.speedo-meter-heading {
+  color: #ffffff;
+  font-size: 24px;
+}
+.speedo-meter-description {
+  color: #cbd5e1;
+  font-size: 14px;
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 25vw;
+}
+.button {
+  width: 100px;
+  height: 35px;
+  border-radius: 8px;
+  border-width: 0px;
+  cursor: pointer;
+}
+
+.button-accelarate {
+  background-color: #0b69ff;
+  color: white;
+  font-size: 12px;
+}
+.button-brake {
+  color: #ffffff;
+  font-size: 12px;
+  background-color: transparent;
+  border: 2px solid #94a3b8;
+}
