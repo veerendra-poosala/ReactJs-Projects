@@ -8,6 +8,8 @@ In this project, let's build a **Speedometer** by applying the concepts we have 
 </div>
 <br/>
 
+<p> url: https://v45speedometer.ccbp.tech/</p>
+
 ### Design Files
 
 <details>
