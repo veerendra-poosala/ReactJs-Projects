@@ -1,0 +1,46 @@
+.even-odd-app-outer-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: Roboto;
+}
+.even-odd-app-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  min-width: 70vw;
+  min-height: 70vh;
+  overflow: auto;
+}
+.heading-count {
+  color: #0f172a;
+  font-size: 28px;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.even-odd-paragraph {
+  color: ;
+  font-size: 20px;
+  font-weight: 700;
+}
+p {
+  font-size: 12px;
+}
+.button {
+  width: 120px;
+  height: 40px;
+  border-width: 0px;
+  border-radius: 12px;
+  cursor: pointer;
+  color: #1e293b;
+  font-weight: 700;
+}
