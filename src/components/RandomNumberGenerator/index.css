@@ -1,0 +1,42 @@
+.random-number-outer-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+}
+.random-number-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  min-height: 60vh;
+  min-width: 60vw;
+  border: 1px solid #e4ebf3;
+  border-radius: 8px;
+}
+
+.main-heading {
+  color: #0b69ff;
+  font-size: 28px;
+}
+.description {
+  color: #333333;
+  font-size: 16px;
+}
+.button {
+  width: 100px;
+  height: 35px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  border-radius: 12px;
+  cursor: pointer;
+  border-width: 0px;
+}
+.result {
+  color: #0b69ff;
+  font-size: 36px;
+  font-weight: 600;
+}
