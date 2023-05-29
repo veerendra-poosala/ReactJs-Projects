@@ -1,0 +1,22 @@
+.todo-item-bg-container {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+  width: 50vw;
+}
+.todo-item-description {
+  color: #000000;
+  font-weight: 500;
+  font-size: 16px;
+}
+.button {
+  color: #ff0b37;
+  width: 75px;
+  height: 25px;
+  font-size: 14px;
+  border: 1px solid #ff0b37;
+  border-radius: 8px;
+  cursor: pointer;
+}
