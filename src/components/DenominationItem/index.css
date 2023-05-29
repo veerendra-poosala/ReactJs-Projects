@@ -1,0 +1,14 @@
+.button {
+  min-width: 130px;
+  min-height: 30px;
+  border: 1px solid #c4c4c4;
+  background-color: #585076;
+  border-radius: 8px;
+  color: #d4d2db;
+  cursor: pointer;
+}
+li {
+  list-style-type: none;
+  display: flex;
+  margin-top: 2vh;
+}

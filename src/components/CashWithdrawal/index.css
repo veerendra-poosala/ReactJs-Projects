@@ -1,0 +1,95 @@
+.denomination-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+.denomination-app-outer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #150b3e;
+  font-family: Roboto;
+  color: #ffffff;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  border-radius: 12px;
+  width: 50vw;
+}
+.username-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-self: flex-start;
+}
+.user-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  font-weight: 700;
+  margin-right: 2vw;
+}
+.username {
+  color: #585076;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 100%;
+}
+.balance-description {
+  color: #382f5a;
+  font-weight: 600;
+  font-size: 26px;
+}
+.rupees-container {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
+.rupees-value {
+  color: #d4d2db;
+}
+.rupees-description {
+  color: #585076;
+}
+.withdraw-container {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+.withdraw-name-heading {
+  color: #d4d2db;
+  font-size: 24px;
+  font-weight: 400;
+}
+.withdraw-description {
+  color: #585076;
+}
+li {
+  list-style-type: none;
+}
+
+.list-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 350px;
+}
