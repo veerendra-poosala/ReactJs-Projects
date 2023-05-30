@@ -1,0 +1,22 @@
+.suggestion-item-bg-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.suggestion-description {
+  color: #475569;
+  font-size: 14px;
+  font-weight: 600;
+}
+.button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+.arrow-image {
+  width: 22px;
+  height: 22px;
+}
