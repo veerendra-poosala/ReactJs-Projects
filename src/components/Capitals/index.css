@@ -1,0 +1,55 @@
+.capitals-app-outer-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #93c5fd;
+  font-family: Roboto;
+}
+.capitals-app-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  min-width: 40vw;
+  min-height: 40vh;
+  border-radius: 12px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  background-color: #fefafc;
+}
+
+.main-heading {
+  font-size: 20px;
+  font-weight: 600;
+  color: #323f4b;
+}
+.selection-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.select-element {
+  padding-left: 5px;
+  background-color: transparent;
+  border: 1px solid #1e293b;
+  border-radius: 8px;
+  width: 15vw;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  height: 35px;
+}
+.select-element:focus {
+  outline: none;
+}
+.option-element {
+  font-weight: bold;
+  font-size: 14px;
+  color: #93c5fd;
+}
