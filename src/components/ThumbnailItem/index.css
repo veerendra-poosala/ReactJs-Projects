@@ -1,0 +1,10 @@
+li {
+  list-style-type: none;
+  align-self: flex-start;
+}
+.button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-right: 1vw;
+}
