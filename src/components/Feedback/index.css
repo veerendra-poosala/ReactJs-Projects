@@ -1,0 +1,9 @@
+.feedback-page-outer-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb, #ffebeb);
+  background-size: cover;
+  min-height: 100vh;
+}
