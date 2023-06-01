@@ -1,0 +1,21 @@
+.tab-item-container {
+  list-style-type: none;
+  background-color: transparent;
+}
+.tab-item-button {
+  background-color: transparent;
+  font-weight: bold;
+  color: #7b8794;
+  width: 80px;
+  height: 30px;
+  cursor: pointer;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #7b8794;
+}
+
+.tab-item-selected {
+  color: #2563eb;
+  border-bottom: 2px solid #2563eb;
+}
