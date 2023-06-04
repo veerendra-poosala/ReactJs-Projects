@@ -1,5 +1,7 @@
 In this project, let's build an **Appointments App** by applying the concepts we have learned till now.
 
+<p>Project url: https://v45appointments.ccbp.tech/</p>
+
 ### Refer to the image below:
 
 <br/>
