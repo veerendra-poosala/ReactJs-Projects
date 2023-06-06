@@ -1,0 +1,38 @@
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2vh;
+  width: 100%;
+}
+.link-style {
+  text-decoration: none;
+}
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.project-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.menu-item-name {
+  color: #12022f;
+  font-size: 20px;
+  font-weight: 600;
+}
+.menu-list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 35%;
+}
+li {
+  list-style-type: none;
+}

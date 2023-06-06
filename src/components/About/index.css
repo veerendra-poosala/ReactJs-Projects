@@ -1,0 +1,20 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-img {
+  width: 20vw;
+  height: 35vh;
+}
+.about-heading {
+  font-size: 24px;
+  font-weight: 600;
+  color: #551e53;
+}
+.about-description {
+  color: #555555;
+  font-size: 18px;
+  font-weight: 400;
+}
