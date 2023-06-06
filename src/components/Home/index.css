@@ -1,0 +1,28 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow: auto;
+}
+.user-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.user-image {
+  width: 180px;
+  height: 180px;
+}
+.user-name {
+  color: #12022f;
+  font-size: 18px;
+  font-weight: 700;
+}
+.user-role {
+  color: #616e7c;
+  font-size: 14px;
+  font-weight: 700;
+}
