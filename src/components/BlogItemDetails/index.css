@@ -1,0 +1,38 @@
+.blog-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+.blog-details-title {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+}
+.author-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.author-pic {
+  width: 25px;
+  margin-right: 10px;
+}
+.details-author-name {
+  color: #8e8e8e;
+  font-size: 12px;
+  font-weight: 500;
+}
+.blog-image {
+  width: 100%;
+  height: 30%;
+}
+.blog-content {
+  color: #2f4f4f;
+  font-size: 16px;
+  font-weight: 600;
+}
