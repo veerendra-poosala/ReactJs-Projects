@@ -1,5 +1,5 @@
 In this project, let's perform **Fetch and Routing** by applying the concepts we have learned till now.
-<p>Project url: https://v45blogslistapp.ccbp.tech/blogs/1</p>
+<p>Project url: https://v45blogslistapp.ccbp.tech/blogs</p>
 ### Refer to the image below:
 
 <br/>
