@@ -1,6 +1,6 @@
 In this project, let's build a **Money Manager** app by applying the concepts we have learned till now.
 
-<p>Project URL: https://v45moneymanger.ccbp.tech/</p>
+<p>Project URL: [https://v45moneymanger.ccbp.tech/](https://v45moneymanager.ccbp.tech/)</p>
 ### Refer to the image below:
 
 <br/>
