@@ -30,7 +30,7 @@ const WinOrLoseCard = props => {
         </button>
       </div>
       <div className="win-or-loss-image-container">
-        <img className="win-or-loss-image" alt="winOrLossImage" src={src} />
+        <img className="win-or-loss-image" alt="win or lose" src={src} />
       </div>
     </div>
   )

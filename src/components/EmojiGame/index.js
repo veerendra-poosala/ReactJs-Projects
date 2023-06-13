@@ -33,12 +33,13 @@ class EmojiGame extends Component {
   }
 
   restartGame = () => {
-    this.setState({
+    this.setState(prev => ({
       score: 0,
       wonGame: false,
       checkEmojisList: [],
       isGameEnded: false,
-    })
+      topScore: `${prev.score >= prev.topScore ? prev.score : prev.topScore}`,
+    }))
   }
 
   shuffledEmojisList = () => {
@@ -57,6 +58,9 @@ class EmojiGame extends Component {
         emojisList: [...eList],
         checkEmojisList: [...prev.checkEmojisList, emoji[0].emojiName],
         score: prev.score + 1,
+        wonGame: prev.score === 11,
+        isGameEnded: prev.score === 11,
+        topScore: `${prev.score >= prev.topScore ? prev.score : prev.topScore}`,
       }))
     } else {
       this.setState(prev => ({
@@ -71,7 +75,7 @@ class EmojiGame extends Component {
     // console.log(checkEmojisList)
     return (
       <div className="emoji-game-bg-container">
-        <Navbar score={score} topScore={topScore} />
+        <Navbar score={score} topScore={topScore} wonGame={wonGame} />
         <div className="emoji-game-body-container">
           {isGameEnded === true ? (
             <WinOrLoseCard
