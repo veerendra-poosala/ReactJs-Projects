@@ -1,0 +1,62 @@
+.win-or-loss-bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+  border: 1.5px solid #ffffff30;
+  border-radius: 8px;
+  margin-top: 4vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  color: #ffffff;
+  width: 30vw;
+  height: 50vh;
+}
+
+.win-or-loss-heading {
+  font-size: 28px;
+  font-weight: 700;
+}
+.win-or-loss-text-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.win-or-loss-text-card > * {
+  padding: 2px;
+  margin: 2px;
+}
+.score {
+  color: #6a59ff;
+  font-weight: 600;
+  font-size: 28px;
+}
+.score-description {
+  font-size: 18px;
+  font-weight: 600;
+}
+.win-or-loss-image-container {
+  width: 60%;
+}
+.win-or-loss-image {
+  width: 100%;
+}
+.play-again-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: #ffce27;
+  color: #3d3d3d;
+  font-size: 14px;
+  border: none;
+  width: 80px;
+  height: 30px;
+  border-radius: 4px;
+}
+.play-again-button:focus {
+  outline: none;
+}

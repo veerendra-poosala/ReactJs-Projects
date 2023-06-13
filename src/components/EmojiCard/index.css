@@ -1,0 +1,36 @@
+.emoji-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 4px;
+  background-color: #ffffff33;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.emoji-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  width: 100%;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  border: none;
+  cursor: pointer;
+}
+.emoji-button:focus {
+  outline: none;
+}
+.emoji-image {
+  width: 100px;
+  height: 100px;
+}

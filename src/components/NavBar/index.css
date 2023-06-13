@@ -1,0 +1,37 @@
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #9796f0;
+  color: #ffffff;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 12%;
+}
+.emoji-logo {
+  width: 30px;
+  height: 30px;
+}
+.emoji-game-heading {
+  font-size: 20px;
+}
+.score-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 16%;
+}
+p {
+  font-size: 16px;
+  font-weight: 600;
+}
