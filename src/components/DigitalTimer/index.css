@@ -1,0 +1,208 @@
+.digital-timer-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to left, #cffcf1, #ffffff);
+
+  min-height: 100vh;
+}
+.digital-timer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  height: 80vh;
+}
+@media (max-width: 576px) {
+  .digital-timer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    height: 80vh;
+  }
+  .digital-timer-bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to left, #cffcf1, #ffffff);
+    width: 100%;
+    min-height: 100vh;
+  }
+  .digital-timer-bg-container > * {
+    padding: 0px;
+    margin: 0px;
+  }
+  .digital-timer-preview-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+    background-position: center;
+
+    width: 100%;
+  }
+  .preview-time {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 16px 0px;
+  }
+  .buttons-section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
+.digital-timer-preview-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-position: center;
+  background-size: cover;
+  width: 60%;
+}
+.preview-time {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 16px 0px;
+}
+.preview-time > * {
+  padding: 2px;
+  margin: 2px;
+}
+.time {
+  color: #00d9f5;
+  font-size: 34px;
+  font-weight: 700;
+}
+.time-status {
+  color: #1e293b;
+  font-size: 16px;
+  font-weight: 700;
+}
+.buttons-section-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.start-reset-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 45%;
+  align-items: center;
+}
+.start-pause-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90px;
+  height: 25px;
+  align-items: center;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+.start-pause-button:focus {
+  outline: none;
+}
+.start-pause-icon {
+  width: 22px;
+  height: 22px;
+}
+.start-pause-button-name {
+  color: #0f172a;
+  font-size: 18px;
+  font-weight: 700;
+}
+.set-timer-limit-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3vh;
+  width: 100%;
+}
+.set-timer-limit-container > * {
+  padding: 2px;
+  margin: 2px;
+}
+.set-time-limit-desc {
+  color: #0f172a;
+  font-size: 12px;
+  font-weight: 700;
+}
+.set-time-limit-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 180px;
+}
+.set-time-limit-button-container > * {
+  padding: 2px;
+  margin: 2px;
+}
+.minus-plus-button {
+  width: 50px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: 700;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.minus-plus-button:focus {
+  outline: none;
+}
+/*
+.minus-button {
+  align-self: center;
+  padding-top: 1px;
+  padding-bottom: 36px;
+}
+*/
+.set-timer-preview-element {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  background-image: linear-gradient(to right, #0bf5ba, #00d9f5);
+  border-radius: 2px;
+  color: #0f172a;
+  font-size: 20px;
+  font-weight: 600;
+}
