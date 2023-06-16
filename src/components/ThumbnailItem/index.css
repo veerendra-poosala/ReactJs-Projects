@@ -1,0 +1,28 @@
+.thumbnail-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+.thumbnail-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border: none;
+  outline: none;
+  transition: 0.5s;
+  background-color: transparent;
+  cursor: pointer;
+  margin-right: 3px;
+}
+.thumbnail-button:hover {
+  width: 100px;
+  height: 100px;
+}
+.thumbnail {
+  width: 100%;
+}

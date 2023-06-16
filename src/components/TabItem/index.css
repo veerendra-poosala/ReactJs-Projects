@@ -1,0 +1,33 @@
+.tab-item-container {
+  list-style-type: none;
+  margin-right: 8px;
+  color: #fff;
+  font-family: Roboto;
+}
+.tab-item-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  width: 80px;
+  height: 30px;
+  color: #fff;
+  transition: 0.5s;
+  border-bottom: 1px solid #fff;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+}
+.tab-item-button:hover {
+  color: #fec653;
+  border-bottom: 1.5px solid #fec653;
+}
+.selected-tab-item {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fec653;
+  border-bottom: 1.5px solid #fec653;;
+}
