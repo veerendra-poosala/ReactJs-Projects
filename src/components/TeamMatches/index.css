@@ -1,0 +1,103 @@
+.team-matches-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 4vh;
+  min-height: 100vh;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  min-height: 30vh;
+}
+.team-matches-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+.team-banner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90%;
+  height: 48vh;
+  margin-bottom: 2vh;
+}
+.team-banner-img {
+  width: 100%;
+  height: 100%;
+}
+.latest-match-details-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90%;
+  margin-bottom: 2vh;
+}
+.recent-matches-bg-container {
+  display: flex;
+  width: 90%;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 2vh;
+}
+
+@media (max-width: 576px) {
+  .team-matches-bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 4vh;
+    min-height: 100vh;
+  }
+  .loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    min-height: 30vh;
+  }
+  .team-matches-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+  }
+  .team-banner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90%;
+    margin-bottom: 2vh;
+  }
+  .team-banner-img {
+    width: 100%;
+    height: 100%;
+  }
+  .latest-match-details-bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-bottom: 2vh;
+  }
+  .recent-matches-bg-container {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 2vh;
+    padding-left: 0px;
+  }
+}

@@ -1,0 +1,101 @@
+.home-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: 100%;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  background-size: cover;
+  min-height: 100vh;
+  font-style: Bree Serif;
+}
+.home-ipl-logo-container {
+  margin-top: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.ipl-logo {
+  width: 40px;
+  margin-right: 12px;
+}
+.ipl-main-heading {
+  font-size: 48px;
+  font-weight: 700;
+}
+.teams-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 2vh;
+}
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.teams-list-bg-container {
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-left: 4vw;
+  margin-bottom: 3vh;
+}
+
+@media (max-width: 576px) {
+  .home-bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+    background-size: cover;
+    min-height: 100vh;
+    font-style: Bree Serif;
+  }
+  .home-ipl-logo-container {
+    margin-top: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  .ipl-logo {
+    width: 40px;
+    margin-right: 12px;
+  }
+  .ipl-main-heading {
+    font-size: 32px;
+    font-weight: 700;
+  }
+  .teams-bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-top: 2vh;
+  }
+  .loader-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .teams-list-bg-container {
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 4vw;
+    margin-bottom: 3vh;
+  }
+}

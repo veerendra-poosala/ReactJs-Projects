@@ -1,0 +1,74 @@
+.link-element {
+  text-decoration: none;
+  width: 35%;
+  border: 1px solid #475569;
+  border-radius: 8px;
+  margin-bottom: 2vh;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 3%;
+  background-color: #ffffff11;
+}
+.link-element:hover {
+  width: 38%;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  cursor: pointer;
+}
+.team-bg-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  font-style: Bree Serif;
+  color: #fff;
+  padding: 2%;
+}
+.team-logo {
+  width: 80px;
+  padding-right: 15px;
+}
+.team-name {
+  font-size: 32px;
+}
+
+@media (max-width: 576px) {
+  .link-element {
+    text-decoration: none;
+    width: 100%;
+    border: 1px solid #475569;
+    border-radius: 8px;
+    margin-bottom: 2vh;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3%;
+    background-color: #ffffff11;
+  }
+  .link-element:hover {
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    cursor: pointer;
+  }
+  .team-bg-container {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    font-style: Bree Serif;
+    color: #fff;
+    padding: 2%;
+  }
+  .team-logo {
+    width: 70px;
+    padding-right: 15px;
+  }
+  .team-name {
+    font-size: 26px;
+  }
+}
