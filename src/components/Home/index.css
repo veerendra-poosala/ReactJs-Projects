@@ -1,0 +1,101 @@
+.home-bg-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 3%;
+  margin-top: 3%;
+  font-family: Roboto;
+  overflow: auto;
+}
+
+@media screen and (max-width: 728px) {
+  .home-bg-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+.home-text-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  margin-right: 4%;
+}
+.home-clothes-heading {
+  font-size: 42px;
+  color: #1e293b;
+}
+
+.home-heading-sm {
+  display: none;
+}
+.home-clothes-style-desc {
+  font-size: 26px;
+  color: #64748b;
+}
+@media screen and (max-width: 728px) {
+  .home-text-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-right: 4%;
+  }
+  .home-clothes-heading {
+    display: none;
+  }
+
+  .home-heading-sm {
+    display: block;
+    font-size: 36px;
+    color: #1e293b;
+  }
+  .home-clothes-style-desc {
+    font-size: 24px;
+    color: #64748b;
+  }
+}
+
+.shop-now-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  background-color: #0b69ff;
+  color: #fff;
+  height: 40px;
+  width: 100px;
+  border-radius: 6px;
+}
+.shop-now-button:hover {
+  cursor: pointer;
+}
+
+.home-images-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+@media screen and (max-width: 728px) {
+  .home-images-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    order: -1;
+  }
+}
+.home-image {
+  width: 75%;
+}
