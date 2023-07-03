@@ -1,5 +1,6 @@
 In this project, let's build an **Events** app by applying the concepts we have learned till now.
 
+<h3>PROJECT URL: https://v45eventsapp.ccbp.tech/</h3>
 ### Refer to the image below:
 
 <br/>
