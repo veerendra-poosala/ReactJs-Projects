@@ -26,26 +26,24 @@ class GithubPopularRepos extends Component {
   }
 
   componentDidMount() {
-    const {activeLanguage} = this.state
-    this.fetchReposList(activeLanguage)
+    this.fetchReposList('ALL')
   }
 
   setActiveLanguage = languageId => {
     const {languages} = this.state
     const active = languages.filter(item => item.id === languageId)
+
     this.setState({activeLanguage: {...active[0]}})
-    this.fetchReposList(active[0])
+    this.fetchReposList(active[0]?.id)
   }
 
   fetchReposList = async activeLanguage => {
     this.setState({
       isSpinnerLoading: true,
     })
-    const url = `https://apis.ccbp.in/popular-repos?language=${activeLanguage.language}`
-    const options = {
-      method: 'GET',
-    }
-    const response = await fetch(url, options)
+    const url = `https://apis.ccbp.in/popular-repos?language=${activeLanguage}`
+
+    const response = await fetch(url)
 
     const data = await response.json()
 
