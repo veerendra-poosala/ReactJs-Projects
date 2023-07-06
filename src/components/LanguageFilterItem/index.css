@@ -1,0 +1,40 @@
+.language-filter-item-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.language-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 85px;
+  height: 30px;
+  outline: none;
+  border: none;
+  color: #0f172a;
+  background-color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+.language-button:hover {
+  outline: none;
+  border: 1.5px solid #0284c7;
+  border-radius: 20px;
+  color: #0284c7;
+  font-size: 14px;
+  font-weight: 600;
+}
+.active-button {
+  border: 1.5px solid #0284c7;
+  border-radius: 20px;
+  color: #0284c7;
+  font-size: 14px;
+  font-size: 14px;
+  font-weight: 600;
+}

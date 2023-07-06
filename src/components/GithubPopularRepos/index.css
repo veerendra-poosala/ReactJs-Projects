@@ -1,0 +1,84 @@
+.git-pop-repos-bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1%;
+  width: 100%;
+  min-height: 100vh;
+  font-family: 'Roboto';
+}
+
+.git-pop-repos-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1%;
+  width: 80%;
+
+  min-height: 100vh;
+}
+@media screen and (max-width: 767px) {
+  .git-pop-repos-container {
+    width: 100%;
+  }
+}
+
+.main-heading {
+  font-weight: 600;
+  font-family: 'Lobster';
+}
+.languages-filter-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.spinner-container {
+  min-height: 60px;
+}
+@media screen and (max-width: 576px) {
+  .spinner-container {
+    min-height: 0px;
+  }
+}
+.repo-item-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.repo-items-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-left: 0px;
+}
+@media screen and (max-width: 767px) {
+  .repo-items-list {
+    flex-direction: column;
+  }
+}
+.failure-view-image {
+  width: 80%;
+}
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.failure-view-heading {
+  font-size: 20px;
+  font-family: 'Lobster';
+  color: #0284c7;
+  font-family: 600;
+}
