@@ -1,0 +1,25 @@
+.rating-list-item-container {
+  width: 100%;
+  list-style-type: none;
+}
+.rating-button {
+  display: flex;
+
+  margin-top: 0px;
+
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 14px;
+}
+.rating-image {
+  width: 80%;
+  margin-right: 5px;
+}
+
+.rating-text {
+  font-size: 14px;
+  font-weight: 600;
+}
+.active-rating {
+  color: #0967d2;
+}

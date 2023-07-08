@@ -1,0 +1,42 @@
+.category-options-list {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+  width: 100%;
+  margin-top: 0px;
+
+  justify-content: space-evenly;
+
+  align-items: flex-start;
+}
+.filter-group-item-button {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  outline: none;
+  border: none;
+  height: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #64748b;
+  width: auto;
+  background-color: transparent;
+  cursor: pointer;
+  padding-left: 0px;
+  margin-bottom: 5px;
+}
+li {
+  list-style-type: none;
+}
+.rating-options-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 0px;
+  padding: 0px;
+  padding-left: 0px;
+}
+.active-category {
+  color: #0967d2;
+  font-weight: 700;
+}
