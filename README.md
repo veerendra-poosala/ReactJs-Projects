@@ -1,6 +1,8 @@
 In this project, let's build a **Nxt Trendz - Specific Product Details** app by applying the concepts we have learned till now.
 
 <h2>App URL : https://v45nxtrendzapp.ccbp.tech</h2>
+<p>Username : rahul</p>
+<p>Password : rahul@2021</p>
 ### Refer to the image below:
 
 <br/>
