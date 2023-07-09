@@ -1,6 +1,6 @@
 In this project, let's build a **Nxt Trendz - Specific Product Details** app by applying the concepts we have learned till now.
 
-<h2>App URL : v45nxtrendzapp.ccbp.tech</h2>
+<h2>App URL : https://v45nxtrendzapp.ccbp.tech</h2>
 ### Refer to the image below:
 
 <br/>
