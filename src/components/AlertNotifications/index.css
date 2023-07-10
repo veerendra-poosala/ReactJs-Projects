@@ -1,0 +1,53 @@
+.notifications-bg-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Roboto';
+  justify-content: center;
+}
+
+.notifications-heading {
+  color: #0f172a;
+  font-size: 28px;
+}
+
+.notification-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.text-container {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+.text-container > * {
+  padding: 2px;
+  margin: 2px;
+}
+.success {
+  color: #2dca73;
+  font-size: 28px;
+  margin-right: 6px;
+}
+.failure {
+  color: #ff0b37;
+  font-size: 28px;
+  margin-right: 6px;
+}
+.warning {
+  color: #ffb800;
+  font-size: 28px;
+  margin-right: 6px;
+}
+.info {
+  color: #0f81e0;
+  font-size: 28px;
+  margin-right: 6px;
+}
+.description {
+  color: #64748b;
+  font-size: 18px;
+}

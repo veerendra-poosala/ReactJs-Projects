@@ -1,0 +1,19 @@
+.notification-bg-container {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  max-width: 500px;
+  justify-content: space-around;
+  padding: 2%;
+
+  border: 1px solid #64748b;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .notification-bg-container {
+    min-height: 90px;
+    max-height: 140px;
+  }
+}
