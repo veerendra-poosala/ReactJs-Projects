@@ -1,0 +1,10 @@
+.vaccination-details-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow: auto;
+  background-color: #1c1c2b;
+  padding: 2%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
