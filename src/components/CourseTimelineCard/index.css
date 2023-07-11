@@ -1,0 +1,23 @@
+.course-timeline-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+}
+.tags-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.tag-container {
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  height: 40px;
+  width: 200px;
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0px;
+  margin: 6px;
+}

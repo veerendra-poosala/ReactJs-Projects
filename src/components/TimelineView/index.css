@@ -1,0 +1,10 @@
+.course-timeline-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+}
+.timeline-items-list-container {
+  width: 100%;
+  flex-direction: column;
+}
