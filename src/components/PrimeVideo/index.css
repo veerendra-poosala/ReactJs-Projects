@@ -1,0 +1,25 @@
+.prime-video-bg-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-image {
+  width: 100%;
+}
+.slider-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  background-color: #000000;
+  padding: 2%;
+  padding-bottom: 100px;
+}
