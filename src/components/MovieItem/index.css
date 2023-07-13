@@ -4,19 +4,31 @@
   width: 100%;
 }
 
+.thumbnail-image {
+  width: 80%;
+  cursor: pointer;
+}
+.thumbnail-image:hover {
+  width: 88%;
+  border: 1.5px solid #dfdfdf;
+  border-radius: 8px;
+  align-self: center;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+
 .modal-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
   background-color: #fff;
-  padding-top: 1%;
-  border-radius: 4px;
+  padding: 1%;
+  border-radius: 16px;
 }
 .popup-content {
   background-color: #ffffff;
   width: 750px;
-  height: 460px;
+  height: 420px;
   border-radius: 16px;
 }
 
