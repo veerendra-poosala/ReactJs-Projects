@@ -1,0 +1,14 @@
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #cbd5e1;
+  width: 100%;
+  max-height: 65px;
+  margin-bottom: 1%;
+}
+
+.header-heading {
+  color: #475569;
+}
