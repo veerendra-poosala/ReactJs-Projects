@@ -2,6 +2,7 @@
 
 In this project, you are going to build a **Nxt Slides** Application.
 
+<h4>Project URL : https://v45nxtslides.ccbp.tech</h4>
 ### User stories
 
 - Users using this application should be able to see the slide tabs in the slide tabs panel.
