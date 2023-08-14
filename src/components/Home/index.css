@@ -12,6 +12,9 @@
 .home-header {
   display: flex;
   width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
   align-items: center;
   background-color: #dbeafe;
   min-height: 100px;
@@ -33,6 +36,9 @@
 .create-new-button-container {
   display: flex;
   flex-direction: column;
+  position: fixed;
+  top: 0px;
+  right: 0px;
 }
 .create-new-button {
   display: flex;
@@ -60,10 +66,11 @@
   flex-direction: column;
 }
 .slide-tabs-list {
+  margin-top: 200px;
   display: flex;
   width: 100%;
   flex-direction: column;
-
+  padding-left: 0px;
   margin-left: 20px;
   overflow-y: scroll;
 }
