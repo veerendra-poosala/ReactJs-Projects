@@ -9,8 +9,14 @@ const SlideTab = props => {
   const updateActivetab = () => {
     setActiveTabId(id)
   }
+  const slideTabTestId = `slideTab${index + 1}`
+  // console.log('slide tabi id', slideTabTestId)
   return (
-    <li className={slideTabStyling} onClick={updateActivetab}>
+    <li
+      className={slideTabStyling}
+      onClick={updateActivetab}
+      testid={slideTabTestId}
+    >
       <p className="number">{index + 1}</p>
       <div className="slide-tab">
         <h1 className="heading-text">{heading}</h1>

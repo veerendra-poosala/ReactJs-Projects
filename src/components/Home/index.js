@@ -16,6 +16,7 @@ class Home extends Component {
       activeTabId: slidesList[0].id,
       isClickedOnHeading: false,
       isClickedOnDescription: false,
+      previewElement: slidesList[0],
     }
   }
 
@@ -73,7 +74,12 @@ class Home extends Component {
     const activeObjectsList = slidesList.filter(slide => slide.id === id)
     const activeObject = activeObjectsList[0]
     const {heading, description} = activeObject
-    this.setState({activeTabId: id, heading, description})
+    this.setState({
+      activeTabId: id,
+      heading,
+      description,
+      previewElement: activeObject,
+    })
   }
 
   addSlide = () => {
@@ -104,6 +110,10 @@ class Home extends Component {
 
     this.setState({
       slidesList: updatedSlidesList,
+      activeTabId: id,
+      previewElement: newSlide,
+      heading,
+      description,
     })
 
     // this.setState({slidesList: [...updatedSlidesList]})
@@ -117,6 +127,7 @@ class Home extends Component {
       description,
       isClickedOnHeading,
       isClickedOnDescription,
+      previewElement,
     } = this.state
     // console.log(slidesList, activeTabId)
     return (
@@ -145,7 +156,7 @@ class Home extends Component {
         </div>
         <div className="home-content-bg-container">
           <div className="slide-tabs-bg-container">
-            <ol className="slide-tabs-list">
+            <ol type={1} className="slide-tabs-list">
               {slidesList.map((slide, index) => (
                 <SlideTab
                   key={slide.id}
